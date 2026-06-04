@@ -33,54 +33,56 @@ const Memories = ({ isIOS }) => {
           transition={{ delay: 0.3 }}
           className="bg-white bg-opacity-90 backdrop-blur-sm p-6 rounded-xl shadow-lg mb-8 border border-pink-100"
         >
-         <h2 className="text-2xl font-semibold text-rose-600 mb-4">
-  Permintaan Maafku di Hari Ulang Tahunmu
-</h2>
+          <h2 className="text-2xl font-semibold text-rose-600 mb-4">
+            Permintaan Maafku di Hari Ulang Tahunmu
+          </h2>
 
-<div className="text-left text-pink-800 space-y-4 leading-relaxed">
-  <p>
-    💌 <strong>Sayang 
-Maafiin bubu yaa 
-</strong>
-  </p>
-  <motion.p
-    initial={{ opacity: 0, y: 20 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 1, delay: 0.6 }}
-  >
- Mungkin bubu bukan perempuan yang baik buat dudu 
-Bubu selalu marah-marah karena hal kecil 
-Bubu selalu kesal setiap dudu tidak mengerti dengan apa yang bubu maksud dan apa yang bubu mau
-  </motion.p>
-  <motion.p
-    initial={{ opacity: 0, y: 20 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 1, delay: 0.6 }}
-  >
-Bubu egois dan selalu melebih lebihkan masalah 
-Tapi percaya lah dudu 
-Bubu mencintai dudu lebih dari apapun itu dan bubu juga sangat tulus sayang sama dudu 
-  </motion.p>
-  <motion.p
-    initial={{ opacity: 0, y: 20 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 1, delay: 0.6 }}
-  >
- Maaf jika dalam mencintai dudu sikap bubu sangat lah rumit 
-Sangat sulit di mengerti di pahami 
-Semoga dudu selalu sabar menghadapi perempuan seperti bubu yaaa
-Dan semoga kita selalu bersama sampai selama lamanya 
-
-  </motion.p>
-  <motion.p
-    initial={{ opacity: 0, y: 20 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 1, delay: 0.6 }}
-  >
-Amiinnn_✨
-  </motion.p>
-  
-</div>
+          <div className="text-left text-pink-800 space-y-4 leading-relaxed">
+            <p>💌 <strong>Maaf ya sayangkuu</strong></p>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.4 }}
+            >
+              Maaf ya sayangkuu kalau beberapa hari ini sikap mi agak sensitif atau banyak nanya.
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.6 }}
+            >
+              LDR ini jujur tak mudah buat mi. Perempuan itu makhluk yang perasaannya dominan, dan pas baku jauh begini, rasa aman itu cuma bersumber dari komunikasi saja 🙏🏻😭
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.8 }}
+            >
+              Kalau mi lagi overthinking, itu bukan karena mi tak percaya sama sayang, tapi karena mi cuma KANGEN trus butuh tenangkan dan di yakinkan.
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 1.0 }}
+            >
+              Tapi dari sini mi juga belajar. Mi mau belajar buat lebih sabar lagi ke depannya dan belajar buat memahami sayang lebih jauh—tentang kesibukan sayang, cara sayang berkomunikasi, dan gimana tong 2 bisa saling jaga kepercayaan ini tanpa harus ada curiga.
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 1.2 }}
+            >
+              Thank you ya udah bertahan sama-sama sejauh ini. Yuk sayang, sama-sama belajar terus buat hubungan ini sayangkuu ❤️
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 1.4 }}
+              className="font-semibold"
+            >
+              Peluuuk jauh, selamat ulang tahun sayangku 🤍😘😘😘😘😘😘😘😘
+            </motion.p>
+          </div>
 
         </motion.div>
 
